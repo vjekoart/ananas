@@ -1,0 +1,25 @@
+{
+  "name": "ananas-api",
+  "version": "1.0.0",
+  "description": "Ananas API built upon Express library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjekoart/ananas.git"
+  },
+  "author": "Vjekoslav Artić <vjekoart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vjekoart/ananas/issues"
+  },
+  "homepage": "https://github.com/vjekoart/ananas#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "private": true
+}
