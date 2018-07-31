@@ -28,4 +28,8 @@ test('call with data property consisting of numbers "234" should return false', 
     expect(isMalformedBody({
         data: "234"
     })).toBe(false)
+
+    expect(isMalformedBody({
+        data: 234
+    })).toBe(false)
 })

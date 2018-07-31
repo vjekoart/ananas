@@ -3,7 +3,18 @@
  */
 function isMalformedBody (body)
 {
-    /* TOOD */
+    if (!body)
+        return true
+
+    if (!body.data)
+        return true
+
+    const toString = body.data.toString()
+
+    if (!toString)
+        return true
+
+    return toString.match(/^[2-9]+$/) === null
 }
 
 module.exports = isMalformedBody
