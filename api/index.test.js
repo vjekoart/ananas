@@ -35,3 +35,14 @@ test('correct request, data = 2', async () => {
     expect(response.body.data).toContain('b')
     expect(response.body.data).toContain('c')
 })
+
+test('correct request, data = 5683', async () => {
+    const payload = { data: '5683' }
+    const response = await request(app).post('/convert').send(payload)
+
+    expect(response.statusCode).toBe(200)
+    expect(response.body.status).toBe(200)
+    expect(response.body.data).toContain('love')
+    expect(response.body.data).toContain('loud')
+    expect(response.body.data).toContain('lnuf')
+})
