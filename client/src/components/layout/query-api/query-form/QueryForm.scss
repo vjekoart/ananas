@@ -1,0 +1,59 @@
+@import 'styles/_variables';
+
+.QueryForm {
+  position: relative;
+
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.QueryForm-input {
+  display: block;
+  float: left;
+
+  width: 75%;
+  height: 2rem;
+  padding: 0 0.5rem;
+
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: calc(2rem - 2px);
+
+  background-color: $color-white;
+  border: 1px solid $color-gray-dark;
+  border-radius: 0;
+
+  &:focus {
+    outline: none;
+    border-color: $color-blue;
+  }
+}
+
+.QueryForm-button {
+  display: block;
+  float: left;
+
+  width: 25%;
+  height: 2rem;
+
+  font-family: monospace;
+  font-weight: bold;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background-color: $color-gray-dark;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: $color-gray-light;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-blue;
+  }
+}

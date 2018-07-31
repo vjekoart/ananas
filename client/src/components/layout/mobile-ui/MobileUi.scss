@@ -1,0 +1,19 @@
+@import 'styles/_variables';
+
+.MobileUi {
+  width: 100%;
+  max-width: $grid-section-width;
+
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+
+  background-color: $color-white-dark;
+}
+
+.MobileUi-title {
+  margin: 0 0 1rem 0;
+
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}

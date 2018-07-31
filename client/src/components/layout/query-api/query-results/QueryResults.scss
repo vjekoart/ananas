@@ -1,0 +1,33 @@
+@import 'styles/_variables';
+
+.QueryResults {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: $color-white-dark;
+  border: 1px solid $color-gray-light-2;
+}
+
+.QueryResults-item {
+  height: 2rem;
+}
+
+.QueryResults-notice {
+  margin: 0;
+  padding: 0 0.5rem;
+
+  font-size: 0.8rem;
+  font-style: italic;
+
+  line-height: 2rem;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-gray-light;
+  }
+}

@@ -17,11 +17,9 @@
 ## Client
 
 1. ~Create and modify boilerplate (initial commit)~
-2. Define application
-	* Create empty components
-	* Create empty services
-3. Write unit tests
-4. Write components and services
-5. Identity and design
-	* Create favicons and edit meta information
-	* Create responsive styles
+2. ~Define application~
+3. Complete components
+4. ~Identity and design~
+    * ~Create favicons and edit meta information~
+    * ~Create responsive styles~
+5. Write unit tests

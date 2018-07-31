@@ -1,0 +1,15 @@
+@import 'styles/_variables';
+
+.MobileInput {
+  display: block;
+  width: 100%;
+  padding: 0 0.5rem;
+
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 2rem;
+
+  background-color: $color-gray-dark;
+  color: $color-gray-light;
+}

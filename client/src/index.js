@@ -8,7 +8,7 @@ import App from './components/App';
 
 import registerServiceWorker from './registerServiceWorker';
 
-console.log('Configuration', configuration)
+console.log('Configuration', configuration);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
