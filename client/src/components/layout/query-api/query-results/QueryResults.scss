@@ -1,6 +1,8 @@
 @import 'styles/_variables';
 
 .QueryResults {
+  max-height: 2rem * 10;
+  overflow-y: scroll;
   margin: 0;
   padding: 0;
 
