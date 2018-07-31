@@ -3,13 +3,23 @@
 .MobileInput {
   display: block;
   width: 100%;
-  padding: 0 0.5rem;
+
+  background-color: $color-gray-dark;
+  color: $color-gray-light;
+
+  overflow: hidden;
+}
+
+.MobileInput-wrapper {
+  display: block;
+  height: calc(3rem + 2px);
+  margin: 0.5rem;
+  padding: 0.5rem;
 
   font-family: monospace;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 2rem;
 
-  background-color: $color-gray-dark;
-  color: $color-gray-light;
+  border: 1px solid $color-white;
 }

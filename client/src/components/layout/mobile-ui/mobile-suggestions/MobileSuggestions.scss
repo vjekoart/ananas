@@ -1,11 +1,15 @@
 @import 'styles/_variables';
 
 .MobileSuggestions {
+  height: 1rem + 1.5rem * 5;
+  overflow-y: scroll;
   margin: 0;
   padding: 0.5rem;
 
   list-style: none;
   background-color: rgba(gray, 0.25);
+  border-left: 0.5rem solid $color-gray-dark;
+  border-right: 0.5rem solid $color-gray-dark;
 }
 
 .MobileSuggestions-item {

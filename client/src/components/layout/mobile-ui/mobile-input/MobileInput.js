@@ -4,7 +4,9 @@ import './MobileInput.css';
 class MobileInput extends Component {
   render() {
     return (
-      <label className="MobileInput">234</label>
+      <div className="MobileInput">
+        <label className="MobileInput-wrapper">{ this.props.inputNumber }</label>
+      </div>
     );
   }
 }
