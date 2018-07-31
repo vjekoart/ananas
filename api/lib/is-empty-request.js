@@ -3,7 +3,16 @@
  */
 function isEmptyRequest (request)
 {
-    /* TOOD */
+    if (!request)
+        return true
+
+    if (!request.body)
+        return true
+
+    if (request.body.data === undefined)
+        return true
+
+    return false
 }
 
 module.exports = isEmptyRequest
