@@ -18,7 +18,7 @@
 
 1. ~Create and modify boilerplate (initial commit)~
 2. ~Define application~
-3. Complete components
+3. ~Complete components~
 4. ~Identity and design~
     * ~Create favicons and edit meta information~
     * ~Create responsive styles~
