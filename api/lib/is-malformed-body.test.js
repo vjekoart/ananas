@@ -18,8 +18,14 @@ test('call with malformed data property should return true', () => {
     })).toBe(true)
 })
 
-test('call with data property consisting of numbers only should return false', () => {
+test('call with data property consisting of numbers "123" should return true', () => {
     expect(isMalformedBody({
         data: "123"
+    })).toBe(true)
+})
+
+test('call with data property consisting of numbers "234" should return false', () => {
+    expect(isMalformedBody({
+        data: "234"
     })).toBe(false)
 })

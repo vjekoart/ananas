@@ -43,7 +43,7 @@ app.post('/convert', (request, response) => {
             .status(400)
             .json({
                 status: 400,
-                message: 'Data property should consist of numbers.'
+                message: 'Data property should consist of numbers [2-9].'
             })
 
     /* Process request data */
