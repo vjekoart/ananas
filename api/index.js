@@ -1,6 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
+const lib = require('./lib')
+
 const app = express()
 
 app.use(bodyParser.json())
@@ -22,18 +24,37 @@ app.use(bodyParser.json())
  * Example of unsuccessful response:
  * {
  *     status: 400,
- *     message: 'Bad request: missing request body or data property.'
+ *     message: 'Missing request body or data property.'
  * }
  */
-app.post('/convert', (req, res) => {
+app.post('/convert', (request, response) => {
     /* Empty request */
-    // TODO
+    if (lib.isEmptyRequest(request))
+        return response
+            .status(400)
+            .json({
+                status: 400,
+                message: 'Missing request body or data property.'
+            })
 
-    /* Malformed request */
-    // TODO
+    /* Malformed body */
+    if (lib.isMalformedBody(request.body))
+        return response
+            .status(400)
+            .json({
+                status: 400,
+                message: 'Data property should consist of numbers.'
+            })
 
     /* Process request data */
-    // TODO
+    const result = lib.processData(request.body.data)
+
+    return response(200)
+        .status(200)
+        .json({
+            status: 200,
+            data: result
+        })
 })
 
 module.exports = app

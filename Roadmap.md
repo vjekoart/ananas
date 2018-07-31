@@ -4,10 +4,10 @@
 
 1. ~Setup project (initial commit)~
 2. ~Write skeleton of `index.js` file (initial commit)~
-3. Define algorithm and create `lib/*` files
-    * Expand `index.js` file
-    * Define and comment functions in `lib/` folder
-    * Define dictionary format
+3. ~Define algorithm and create `lib/*` files~
+    * ~Expand `index.js` file~
+    * ~Define and comment functions in `lib/` folder~
+    * ~Define dictionary format~
 4. Setup testing environment and write unit tests
     * Setup testing environment with Jest
     * Write unit tests
