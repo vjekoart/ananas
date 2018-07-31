@@ -49,7 +49,7 @@ app.post('/convert', (request, response) => {
     /* Process request data */
     const result = lib.processData(request.body.data)
 
-    return response(200)
+    return response
         .status(200)
         .json({
             status: 200,
