@@ -1,6 +1,9 @@
 import configuration from './configuration';
 
 async function convertNumbers(number) {
+  if (!number)
+    return null;
+
   try {
     const rawResponse = await fetch(configuration.api + 'convert', {
       method: 'POST',
