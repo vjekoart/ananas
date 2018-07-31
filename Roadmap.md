@@ -8,10 +8,10 @@
     * ~Expand `index.js` file~
     * ~Define and comment functions in `lib/` folder~
     * ~Define dictionary format~
-4. Setup testing environment and write unit tests
-    * Setup testing environment with Jest
-    * Write unit tests
-    * Create script for tests in `package.json` file
+4. ~Setup testing environment and write unit tests~
+    * ~Setup testing environment with Jest~
+    * ~Write unit tests~
+    * ~Create script for tests in `package.json` file~
 5. Write functions & fill dictionary
 
 ## Client

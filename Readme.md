@@ -53,7 +53,7 @@ During the development of React client, run `npm start` in the `client/` folder.
 
 ## API Testing
 
-Run `npm run test` inside `api/` folder to start unit tests based on Jest.
+Run `npm test` inside `api/` folder to start unit tests based on Jest.
 
 
 ## Dictionary
