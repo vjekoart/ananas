@@ -21,9 +21,14 @@ JSDOM.fromFile('./5000-most-common-words.html').then(dom => {
         }
     }
 
+    /* Remove duplicates */
+    const uniqueResults = results.filter((value, index, self) => {
+        return self.indexOf(value) === index
+    })
+
     /* Save array of words to dictionary */
     fs.writeFile('../lib/dictionary.json', JSON.stringify({
-        words: results
+        words: uniqueResults
     }), error => {
         if (error)
             throw error

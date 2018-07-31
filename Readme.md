@@ -60,6 +60,8 @@ Run `npm test` inside `api/` folder to start unit tests based on Jest.
 
 List of 5000 most common words in English language taken from [Word frequency data](https://www.wordfrequency.info/).
 
+*Due to nature of the list, some duplicates were removed, so there is less than 5000 words.*
+
 Script for converting words from HTML to JSON format is `api/scripts/extract.js`.
 
 
