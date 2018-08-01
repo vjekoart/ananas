@@ -2,7 +2,7 @@
 
 Number to word list converter with Node ([Express](https://expressjs.com/)) backend and [React](https://reactjs.org/) frontend.
 
-*Online demo: -*
+*[Online demo](https://ananas-client.appspot.com/)*
 
 *Due to simplicity, both API and client are stored in a single repository. Also, there is only one Readme.md file for both projects.*
 
