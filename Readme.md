@@ -56,6 +56,11 @@ During the development of React client, run `npm start` in the `client/` folder.
 Run `npm test` inside `api/` folder to start unit tests based on Jest.
 
 
+## Client Testing
+
+Run `npm test` inside `client/` folder to start unit tests based on Jest.
+
+
 ## Dictionary
 
 List of 5000 most common words in English language taken from [Word frequency data](https://www.wordfrequency.info/).

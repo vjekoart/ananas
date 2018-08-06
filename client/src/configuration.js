@@ -1,5 +1,5 @@
 const configuration = {
-  api: 'http://localhost:3333/'
+  api: 'https://ananas-212005.appspot.com/'
 }
 
 export default configuration;

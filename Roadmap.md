@@ -22,4 +22,4 @@
 4. ~Identity and design~
     * ~Create favicons and edit meta information~
     * ~Create responsive styles~
-5. Write unit tests
+5. ~Write unit tests~
